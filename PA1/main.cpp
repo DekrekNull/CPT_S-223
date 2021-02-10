@@ -9,6 +9,22 @@ using std::cout;
 using std::cin;
 using std::endl;
 
+
+//LINKED LIST
+//	Advantage: 	Reading from and writing to files in this case is very quick with
+//			the use of the list becuase we are adding and removing from the front
+//			every time.
+//	Disadvantage:	Searching for nodes to avoid adding duplicates and searching for
+// 			nodes takes more time than if it was an array.
+
+//ARRAY
+//	Advantage:	Updating the profiles scores and checking if there is already a profile
+// 			with a given name is very quick.
+//	Disadvantage:	Adding profiles to the front requires all other profiles in the array 
+//			to be moved back one slot, which not only drops the last one if the
+//			array is full, but also takes a lot of time to do.
+
+
 int main() {
 
     //initialize files
