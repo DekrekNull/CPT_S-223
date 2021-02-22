@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-20.04 # NO NEED TO CHANGE HERE
 
     steps:
-    - uses: actions/checkout@v2 # NO NEED TO CHANGE HERE
+    - uses: actions/checkout@v1 # NO NEED TO CHANGE HERE
     - name: Build CMake example # NO NEED TO CHANGE HERE
       # Choose the working directory
       working-directory: ${{github.workspace}}/MA1 # YOU NEED TO CHANGE THE FOLDER NAME TO YOUR OWN FOLDER NAME
