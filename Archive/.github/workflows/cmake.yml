@@ -11,8 +11,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2 # NO NEED TO CHANGE HERE
-    - name: Build CMake example # NO NEED TO CHANGE HERE
-      # Choose the working directory
+    - # Choose the working directory
       working-directory: ${{github.workspace}}/MA2 # YOU NEED TO CHANGE THE FOLDER NAME TO YOUR OWN FOLDER NAME
       shell: bash
       # This step will execute the build. 1. Create a build directory. 2. Config cmake. 3. Build the project using cmake
